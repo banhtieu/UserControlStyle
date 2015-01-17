@@ -1,7 +1,7 @@
 # UserControlStyle
 Using Modern Coding Style for Rapid Custom Entity Editing with Asp.NET WebForm.
 
-About me: I'm Daniel. And I'm totally into good coding style. I try to make code more readable, reuseable, and understandable. 
+About me: I'm Daniel. I love improving coding style, trying to make code more readable, reuseable, and understandable. 
 This is my little effort to make a good coding style for asp.net web form so that you can do 2-way databinding in a custom control.
 Follow this coding style (and re-use the template I provide), you will be able to create a rapid user control for displaying/editing data entity in a few lines of code.
 
@@ -80,7 +80,7 @@ To reuse code, we will make a Generic Template like bellow
 
 ### Create the real User control
 Now, it's time to make your own control (TodoItemView for example) to display the TodoListItem. 
-This user control will inherit from `DataUserContr<TodoItemView>`, so everything is ready to go.
+This user control will inherit from `DataUserControl<TodoItemView>`, so everything is ready to go.
 We just need to custom the view like this:
 
 ```
