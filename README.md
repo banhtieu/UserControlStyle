@@ -80,7 +80,7 @@ To reuse code, we will make a Generic Template like bellow
 
 ### Create the real User control
 Now, it's time to make your own control (TodoItemView for example) to display the TodoListItem. 
-This user control will inherit from DataUserContr<TodoItemView>, so everything is ready to go.
+This user control will inherit from `DataUserContr<TodoItemView>`, so everything is ready to go.
 We just need to custom the view like this:
 
 ```
